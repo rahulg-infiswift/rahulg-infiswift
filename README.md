@@ -1,17 +1,14 @@
 ### Hi, I'm Rahul Garg
 
-ML & Robotics Engineer. I build robot systems that see, listen and act: perception from RGB-D cameras, 6-DoF grasp estimation, collision-aware motion planning, and speech interfaces that run on edge hardware.
+Senior Data Scientist (Machine Learning & Robotics). I build robot systems that see, plan and act: deep-learning perception, 3D vision, grasp estimation and motion planning on a 6-DoF industrial arm, plus speech models that run on edge hardware.
 
-**Focus areas:** robot perception · manipulation · motion planning · speech for robotics · edge AI
+**Research interests:** robot foundation models · vision-language-action (VLA) models for manipulation · 3D scene understanding · touch for precise insertion · learning from demonstration
 
 **Featured projects**
 
 | Project | What it is |
 |---|---|
-| [Voice- and vision-commanded robotic pick-and-insert](https://github.com/rahulg-infiswift/voice-vision-robotic-manipulation) | Spoken English/Japanese commands drive an industrial arm that picks screws from clutter (RF-DETR + SAM, PCA grasp frames, PyBullet planning on live point-cloud meshes) and inserts them into a plate. |
-| [On-device wake-word & command detection](https://github.com/rahulg-infiswift/edge-wakeword-detection) | A keyword spotter trained on synthetic TTS speech with hard-negative mining, streaming in 10 ms frames on CPU and a Hailo NPU. |
+| [Vision-based industrial manipulation system](https://github.com/rahulg-infiswift/voice-vision-robotic-manipulation) | Camera-guided pick, place and insertion on a 6-DoF arm at ~95% success on non-cluttered scenes. Fine-tuned detector + SAM, 3D pose and grasp estimation, and PyBullet planning, with a single-mesh workspace that cut planning time from ~45 s to ~3 s. |
+| [Multi-head spoken-command classifier](https://github.com/rahulg-infiswift/edge-wakeword-detection) | A custom multi-head CNN (action, amount, direction) trained with graded hard negatives, quantised to ONNX and running on a Hailo accelerator at ~300 ms detection latency. |
 
-
-**Portfolio:** [rahulg-infiswift.github.io](https://rahulg-infiswift.github.io/)
-
-<!-- TODO: add LinkedIn -->
+**Portfolio:** [rahulg-infiswift.github.io](https://rahulg-infiswift.github.io/) · **LinkedIn:** [irahulgarg](https://www.linkedin.com/in/irahulgarg)
