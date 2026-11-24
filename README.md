@@ -12,4 +12,6 @@ ML & Robotics Engineer. I build robot systems that see, listen and act: percepti
 | [On-device wake-word & command detection](https://github.com/rahulg-infiswift/edge-wakeword-detection) | A keyword spotter trained on synthetic TTS speech with hard-negative mining, streaming in 10 ms frames on CPU and a Hailo NPU. |
 
 
-<!-- TODO: add portfolio link and LinkedIn -->
+**Portfolio:** [rahulg-infiswift.github.io](https://rahulg-infiswift.github.io/)
+
+<!-- TODO: add LinkedIn -->
